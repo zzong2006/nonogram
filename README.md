@@ -15,20 +15,16 @@
     the option of "tracer", press solve button then a picture of kitty cat will reveal itself onto the grid
   * However user may choose to input set of the nonogram Constraint of its own by:
 
-  1. Clicking `LOAD` button 
-
+    1. Clicking `LOAD` button 
   2. When additional window gets prompted write down your desirable **constraints**.
       However, give the input in terms of nested list within a dictionary with dictionary key of `ver` and `hor` (`ver` indicating vertical constraints and `hor`   horizontal constraints)
-    
-    * Example
-    
-      ```python
-      cat = {'ver': [[1,1],[3],[5],[5],[1,1],[1,1],[2,2],[3,1],[5]],'hor':[[2],[4],[8],[4,3],[2,2],[1],[3],[3]]}
-      app = Nonogram(cat)
-      app.root.mainloop()
-      ```
-    
-      ,which results a grid that looks above image.
+
+* Example (which results a grid that looks above image.)
+
+    cat = {'ver': [[1,1],[3],[5],[5],[1,1],[1,1],[2,2],[3,1],[5]],
+    'hor':[[2],[4],[8],[4,3],[2,2],[1],[3],[3]]}
+    app = Nonogram(cat)
+    app.root.mainloop()
 
   3. Then just as you did to the original input, choose sorting algorithm, and the option of "Tracer" then press solve.
 
