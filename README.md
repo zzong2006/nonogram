@@ -20,11 +20,11 @@ WARNING: Unfortunately, when we tried to run the program under CSC domain an err
 	  ex. {"ver":[[1,2],[3,4,5]], "hor":[[6,7,8],[9,1]]}
 	    Which results a grid that looks
 
-		   3
-		1 4
-		2 5
-   		       6 7 8- -  	
-		     9 1- -
+		   		   3
+				 1 4
+				 2 5
+   	   6 7 8 - -  	
+			 9 1 - -
 
 	3. Then just as you did to the original input, choose sorting algorithm,
 	    and the option of "Tracer" then press solve 
@@ -34,3 +34,4 @@ WARNING: Unfortunately, when we tried to run the program under CSC domain an err
 	    previous input in it. Then copy the output onto seperate notepad, wordfile etc.
 	    for your convinent later use of the application.  
 	6. Whenever you would like to exit the game press "Quit" button
+
